@@ -43,8 +43,8 @@ export async function run() {
     console.info('Add to vector store');
     await vectorstore.addDocuments(splitDocs);
     const model = new ChatLlamaCpp({
-        // modelPath: './models/RakutenAI-7B-chat-q8_0.gguf',
         modelPath: './models/RakutenAI-7B-chat-q2_K.gguf',
+        // modelPath: './models/RakutenAI-7B-chat-q8_0.gguf',
     });
     const responseChainPrompt = ChatPromptTemplate.fromMessages([
         ['system', `You are an experienced researcher, expert at interpreting and answering questions based on provided sources. Using the provided context, answer the user's question to the best of your ability using the resources provided.
