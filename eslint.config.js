@@ -18,17 +18,9 @@ export default tseslint.config(
     ignores: [
       '**/*.d.ts',
       '*.{js,jsx}',
-      'src/tsconfig.json',
-      'src/stories',
-      '**/*.css',
       'node_modules/**/*',
-      'out',
-      'cdk.out',
-      'dist',
     ],
-  },
-  {
-    files: ['src/**/*.ts'],
+    files: ['index.ts'],
     ...importPlugin.flatConfigs.recommended,
     ...importPlugin.flatConfigs.typescript,
     languageOptions: {
@@ -51,8 +43,8 @@ export default tseslint.config(
       '@stylistic/ts/indent': ['error', 2],
       'comma-dangle': ['error', 'always-multiline'],
       'arrow-parens': ['error', 'always'],
-      'indent': ['error', 2],
-      'quotes': ['error', 'single'],
+      indent: ['error', 2],
+      quotes: ['error', 'single'],
     },
   },
 );
