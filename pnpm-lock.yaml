@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@langchain/community':
-        specifier: ^0.3.11
-        version: 0.3.11(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))(@xenova/transformers@2.17.2)(axios@1.7.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(openai@4.71.0(zod@3.23.8))(pdf-parse@1.1.1)(voy-search@0.6.2)(ws@8.18.0)
+        specifier: ^0.3.12
+        version: 0.3.12(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))(@xenova/transformers@2.17.2)(axios@1.7.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(openai@4.71.0(zod@3.23.8))(pdf-parse@1.1.1)(voy-search@0.6.2)(ws@8.18.0)
       '@langchain/core':
         specifier: ^0.3.17
         version: 0.3.17(openai@4.71.0(zod@3.23.8))
@@ -156,8 +156,8 @@ packages:
   '@kwsites/promise-deferred@1.1.1':
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
 
-  '@langchain/community@0.3.11':
-    resolution: {integrity: sha512-hgnqsgWAhfUj9Kp0y+FGxlKot/qJFxat9GfIPJSJU4ViN434PgeMAQK53tkGZ361E2Zoo1V4RoGlSw4AjJILiA==}
+  '@langchain/community@0.3.12':
+    resolution: {integrity: sha512-nGj/wyuARf/54JM0ey+MUP2nbuhe9fmdl+pZPCtescveDJL4b+2eaiaNMEYWDgpakSDTymh90wGTYgs9XLzIBg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@arcjet/redact': ^v1.0.0-alpha.23
@@ -535,8 +535,8 @@ packages:
     peerDependencies:
       '@langchain/core': '>=0.2.31 <0.4.0'
 
-  '@langchain/langgraph-sdk@0.0.21':
-    resolution: {integrity: sha512-sqoPCwPLrJTQKMj4b6whK2Zx/uQHnYmWOLUPqUH235bC5ipLYBm3TnqDhRbqDzY4bNsbYKFZouJZj+5iTRUecw==}
+  '@langchain/langgraph-sdk@0.0.22':
+    resolution: {integrity: sha512-+VWA4l6cgUEpxCZwW2aJLGpTYXTO1LYUjrv53Ru9i3ahEHrC7fu9BJL198WdDL6Pk+Qt2pyNkq/30HoKUKFTfQ==}
 
   '@langchain/langgraph@0.2.20':
     resolution: {integrity: sha512-MMD4G++gHs+5OO5Uu75gduskTboJ8Q7ZAwzd1s64a1Y/38pdgDqJdYRHRCGpx8eeCuKhsRzV2Sssnl5lujfj8w==}
@@ -544,8 +544,8 @@ packages:
     peerDependencies:
       '@langchain/core': '>=0.2.36 <0.3.0 || >=0.3.9 < 0.4.0'
 
-  '@langchain/openai@0.3.11':
-    resolution: {integrity: sha512-mEFbpJ8w8NPArsquUlCwxvZTKNkXxqwzvTEYzv6Jb7gUoBDOZtwLg6AdcngTJ+w5VFh3wxgPy0g3zb9Aw0Qbpw==}
+  '@langchain/openai@0.3.12':
+    resolution: {integrity: sha512-z8y0zdKovjY6bB0D3D+K99bPAN+wFRQcrWDfHfX7yVmYwq1O8GOIzQgCBth0vbhbzeuaJ4dz3+oqN/4Q2PCpHg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@langchain/core': '>=0.2.26 <0.4.0'
@@ -642,8 +642,8 @@ packages:
     resolution: {integrity: sha512-TkBr7QgOmE6ORxvIAhDbZsqPkF7RSqTY4pLTtUQCvr6dTXqvi2fFo46q3h1lxlk/sGMQjqyZ0kEahkD/NyzOHg==}
     engines: {node: '>= 18'}
 
-  '@octokit/auth-app@7.1.1':
-    resolution: {integrity: sha512-kRAd6yelV9OgvlEJE88H0VLlQdZcag9UlLr7dV0YYP37X8PPDvhgiTy66QVhDXdyoT0AleFN2w/qXkPdrSzINg==}
+  '@octokit/auth-app@7.1.2':
+    resolution: {integrity: sha512-5cfWRr1hr0w/EW3StFIIOkMtYhOyGZ6/R3T0xeN6UgC/uL5pIyeood9N/8Z7W4NZUdz2QK1Fv0oM/1AzTME3/Q==}
     engines: {node: '>= 18'}
 
   '@octokit/auth-oauth-app@8.1.1':
@@ -970,6 +970,10 @@ packages:
   '@typescript-eslint/visitor-keys@8.13.0':
     resolution: {integrity: sha512-7N/+lztJqH4Mrf0lb10R/CbI1EaAMMGyF5y0oJvFoAhafwgiRA7TXyd8TFn8FC8k5y2dTsYogg238qavRGNnlw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@wolfy1339/lru-cache@11.0.2-patch.1':
+    resolution: {integrity: sha512-BgYZfL2ADCXKOw2wJtkM3slhHotawWkgIRRxq4wEybnZQPjvAp71SPX35xepMykTw8gXlzWcWPTY31hlbnRsDA==}
+    engines: {node: 18 >=18.20 || 20 || >=22}
 
   '@xenova/transformers@2.17.2':
     resolution: {integrity: sha512-lZmHqzrVIkSvZdKZEx7IYY51TK0WDrC8eR0c5IMnBsO8di8are1zzw8BlLhyO2TklZKLN5UffNGs1IJwT6oOqQ==}
@@ -1975,8 +1979,8 @@ packages:
       typeorm:
         optional: true
 
-  langsmith@0.2.3:
-    resolution: {integrity: sha512-SPMYPVqR9kwXZVmJ2PXC61HeBnXIFHrjfjDxQ14H0+n5p4gqjLzgSHIQyxBlFeWQUQzArJxe65Ap+s+Xo1cZog==}
+  langsmith@0.2.4:
+    resolution: {integrity: sha512-0st1OWbH/jiGAksoJrUBOq4Gc9iMX6yy8FYmF/0aGcZEd2hpiara+Y03mpe2BuhteRR2U3YjL7Lj/TNA1Jj5/g==}
     peerDependencies:
       openai: '*'
     peerDependenciesMeta:
@@ -2038,9 +2042,6 @@ packages:
   lowdb@7.0.1:
     resolution: {integrity: sha512-neJAj8GwF0e8EpycYIDFqEPcx9Qz4GUho20jWFR7YiFeXzF1YMLdxB36PypcTSPMA+4+LvgyMacYhlr18Zlymw==}
     engines: {node: '>=18'}
-
-  lru-cache@10.4.3:
-    resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
   memory-stream@1.0.0:
     resolution: {integrity: sha512-Wm13VcsPIMdG96dzILfij09PvuS3APtcKNh7M28FsCA/w6+1mjR7hhPmfFNoilX9xU7wTdhsH5lJAm6XNzdtww==}
@@ -2939,18 +2940,18 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@langchain/community@0.3.11(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))(@xenova/transformers@2.17.2)(axios@1.7.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(openai@4.71.0(zod@3.23.8))(pdf-parse@1.1.1)(voy-search@0.6.2)(ws@8.18.0)':
+  '@langchain/community@0.3.12(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))(@xenova/transformers@2.17.2)(axios@1.7.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(openai@4.71.0(zod@3.23.8))(pdf-parse@1.1.1)(voy-search@0.6.2)(ws@8.18.0)':
     dependencies:
       '@ibm-cloud/watsonx-ai': 1.1.1
       '@langchain/core': 0.3.17(openai@4.71.0(zod@3.23.8))
-      '@langchain/openai': 0.3.11(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))
+      '@langchain/openai': 0.3.12(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))
       binary-extensions: 2.3.0
       expr-eval: 2.0.2
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
       langchain: 0.3.5(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.71.0(zod@3.23.8))
-      langsmith: 0.2.3(openai@4.71.0(zod@3.23.8))
+      langsmith: 0.2.4(openai@4.71.0(zod@3.23.8))
       uuid: 10.0.0
       zod: 3.23.8
       zod-to-json-schema: 3.23.5(zod@3.23.8)
@@ -2985,7 +2986,7 @@ snapshots:
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.15
-      langsmith: 0.2.3(openai@4.71.0(zod@3.23.8))
+      langsmith: 0.2.4(openai@4.71.0(zod@3.23.8))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -3000,7 +3001,7 @@ snapshots:
       '@langchain/core': 0.3.17(openai@4.71.0(zod@3.23.8))
       uuid: 10.0.0
 
-  '@langchain/langgraph-sdk@0.0.21':
+  '@langchain/langgraph-sdk@0.0.22':
     dependencies:
       '@types/json-schema': 7.0.15
       p-queue: 6.6.2
@@ -3011,11 +3012,11 @@ snapshots:
     dependencies:
       '@langchain/core': 0.3.17(openai@4.71.0(zod@3.23.8))
       '@langchain/langgraph-checkpoint': 0.0.11(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))
-      '@langchain/langgraph-sdk': 0.0.21
+      '@langchain/langgraph-sdk': 0.0.22
       uuid: 10.0.0
       zod: 3.23.8
 
-  '@langchain/openai@0.3.11(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))':
+  '@langchain/openai@0.3.12(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))':
     dependencies:
       '@langchain/core': 0.3.17(openai@4.71.0(zod@3.23.8))
       js-tiktoken: 1.0.15
@@ -3079,7 +3080,7 @@ snapshots:
 
   '@octokit/app@15.1.0':
     dependencies:
-      '@octokit/auth-app': 7.1.1
+      '@octokit/auth-app': 7.1.2
       '@octokit/auth-unauthenticated': 6.1.0
       '@octokit/core': 6.1.2
       '@octokit/oauth-app': 7.1.3
@@ -3087,14 +3088,14 @@ snapshots:
       '@octokit/types': 13.6.1
       '@octokit/webhooks': 13.3.0
 
-  '@octokit/auth-app@7.1.1':
+  '@octokit/auth-app@7.1.2':
     dependencies:
       '@octokit/auth-oauth-app': 8.1.1
       '@octokit/auth-oauth-user': 5.1.1
       '@octokit/request': 9.1.3
       '@octokit/request-error': 6.1.5
       '@octokit/types': 13.6.1
-      lru-cache: 10.4.3
+      lru-cache: '@wolfy1339/lru-cache@11.0.2-patch.1'
       universal-github-app-jwt: 2.2.0
       universal-user-agent: 7.0.2
 
@@ -3450,6 +3451,8 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.13.0
       eslint-visitor-keys: 3.4.3
+
+  '@wolfy1339/lru-cache@11.0.2-patch.1': {}
 
   '@xenova/transformers@2.17.2':
     dependencies:
@@ -4610,12 +4613,12 @@ snapshots:
   langchain@0.3.5(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.71.0(zod@3.23.8)):
     dependencies:
       '@langchain/core': 0.3.17(openai@4.71.0(zod@3.23.8))
-      '@langchain/openai': 0.3.11(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))
+      '@langchain/openai': 0.3.12(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))
       '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.17(openai@4.71.0(zod@3.23.8)))
       js-tiktoken: 1.0.15
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langsmith: 0.2.3(openai@4.71.0(zod@3.23.8))
+      langsmith: 0.2.4(openai@4.71.0(zod@3.23.8))
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
@@ -4629,7 +4632,7 @@ snapshots:
       - encoding
       - openai
 
-  langsmith@0.2.3(openai@4.71.0(zod@3.23.8)):
+  langsmith@0.2.4(openai@4.71.0(zod@3.23.8)):
     dependencies:
       '@types/uuid': 10.0.0
       commander: 10.0.1
@@ -4686,8 +4689,6 @@ snapshots:
   lowdb@7.0.1:
     dependencies:
       steno: 4.0.2
-
-  lru-cache@10.4.3: {}
 
   memory-stream@1.0.0:
     dependencies:
