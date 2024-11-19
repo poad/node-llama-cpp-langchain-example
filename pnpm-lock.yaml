@@ -2126,8 +2126,8 @@ packages:
   node-addon-api@6.1.0:
     resolution: {integrity: sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA==}
 
-  node-addon-api@8.2.1:
-    resolution: {integrity: sha512-vmEOvxwiH8tlOcv4SyE8RH34rI5/nWVaigUeAUPawC6f0+HoDthwI0vkMu4tbtsZrXq6QXFfrkhjofzKEs5tpA==}
+  node-addon-api@8.2.2:
+    resolution: {integrity: sha512-9emqXAKhVoNrQ792nLI/wpzPpJ/bj/YXxW0CvAau1+RdGBcCRF1Dmz7719zgVsQNrzHl9Tzn3ImZ4qWFarWL0A==}
     engines: {node: ^18 || ^20 || >= 21}
 
   node-api-headers@1.4.0:
@@ -2340,8 +2340,8 @@ packages:
     resolution: {integrity: sha512-ASJqOugUF1bbzI35STMBUpZqdfYKlJugy6JBziGi2EE+AL5JPJGSzvpeVXojxrr0ViUYoToUjb5kjSEGf7Y83Q==}
     engines: {node: '>=14.16'}
 
-  pretty-ms@9.1.0:
-    resolution: {integrity: sha512-o1piW0n3tgKIKCwk2vpM/vOV13zjJzvP37Ioze54YlTHE06m4tjEbzg9WsKkvTuyYln2DHjo5pY4qrZGI0otpw==}
+  pretty-ms@9.2.0:
+    resolution: {integrity: sha512-4yf0QO/sllf/1zbZWYnvWw3NxCQwLXKzIj0G849LSufP15BXKM0rbD2Z3wVnkMfjdn/CB0Dpp444gYAACdsplg==}
     engines: {node: '>=18'}
 
   proper-lockfile@4.1.2:
@@ -3575,7 +3575,7 @@ snapshots:
   axios@1.7.4(debug@4.3.7):
     dependencies:
       follow-redirects: 1.15.9(debug@4.3.7)
-      form-data: 4.0.1
+      form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -4753,7 +4753,7 @@ snapshots:
 
   node-addon-api@6.1.0: {}
 
-  node-addon-api@8.2.1: {}
+  node-addon-api@8.2.2: {}
 
   node-api-headers@1.4.0: {}
 
@@ -4785,10 +4785,10 @@ snapshots:
       lifecycle-utils: 1.7.0
       log-symbols: 7.0.0
       nanoid: 5.0.8
-      node-addon-api: 8.2.1
+      node-addon-api: 8.2.2
       octokit: 4.0.2
       ora: 8.1.1
-      pretty-ms: 9.1.0
+      pretty-ms: 9.2.0
       proper-lockfile: 4.1.2
       semver: 7.6.3
       simple-git: 3.27.0
@@ -5037,7 +5037,7 @@ snapshots:
     dependencies:
       parse-ms: 3.0.0
 
-  pretty-ms@9.1.0:
+  pretty-ms@9.2.0:
     dependencies:
       parse-ms: 4.0.0
 
