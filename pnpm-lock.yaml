@@ -15,8 +15,8 @@ importers:
         specifier: ^0.3.18
         version: 0.3.18(openai@4.72.0(zod@3.23.8))
       '@langchain/langgraph':
-        specifier: ^0.2.21
-        version: 0.2.21(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))
+        specifier: ^0.2.22
+        version: 0.2.22(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))
       '@xenova/transformers':
         specifier: ^2.17.2
         version: 2.17.2
@@ -58,8 +58,8 @@ importers:
         specifier: ^9.0.4
         version: 9.0.4
       '@types/node':
-        specifier: ^22.9.0
-        version: 22.9.0
+        specifier: ^22.9.1
+        version: 22.9.1
       '@types/uuid':
         specifier: ^10.0.0
         version: 10.0.0
@@ -529,17 +529,17 @@ packages:
     resolution: {integrity: sha512-IEZCrFs1Xd0J2FTH1D3Lnm3/Yk2r8LSpwDeLYwcCom3rNAK5k4mKQ2rwIpNq3YuqBdrTNMKRO+PopjkP1SB17A==}
     engines: {node: '>=18'}
 
-  '@langchain/langgraph-checkpoint@0.0.11':
-    resolution: {integrity: sha512-nroHHkAi/UPn9LqqZcgOydfB8qZw5TXuXDFc43MIydnW4lb8m9hVHnQ3lgb2WGSgtbZJnsIx0TzL19oemJBRKg==}
+  '@langchain/langgraph-checkpoint@0.0.12':
+    resolution: {integrity: sha512-XySxUqpt7X3k02UyncpKupZMOHqLbkjOpkGWFdwBTueT1+kVeS2+DTwZK80QT/BaWH6jEUkMk14oU9/D63R0tg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@langchain/core': '>=0.2.31 <0.4.0'
 
-  '@langchain/langgraph-sdk@0.0.25':
-    resolution: {integrity: sha512-12QYwGuhZ9HPbXFb+SNyUse3V8Hx8d375ytHPuMPZ5nS+UTFozIBxLzCTE0QMoXt0Hfr4X772W/YP6P+v751gw==}
+  '@langchain/langgraph-sdk@0.0.26':
+    resolution: {integrity: sha512-zlObXIuYMBpV55ENiUc+gcwf3LVaJEd/GbDvVALVbFGU0nf/wsr21Jowf+RkjFxMGvFLR6QRDZ7C/NJAlcUAUA==}
 
-  '@langchain/langgraph@0.2.21':
-    resolution: {integrity: sha512-KTDLCD0kawWm04hpYYMGZMXiio2j4fWadak5bTCH53qOcEqlBnbc4lQQviYZTSr3CvK+/9KZPsWPZBx9l6WCAg==}
+  '@langchain/langgraph@0.2.22':
+    resolution: {integrity: sha512-iXA8p9xaWfGviBbZ6nOETqvGz2misjZ4xGxrWla98FF2aE8mq1jfMzWuEX37KZIfuQPCqt1iIh/Zit60T4mG3Q==}
     engines: {node: '>=18'}
     peerDependencies:
       '@langchain/core': '>=0.2.36 <0.3.0 || >=0.3.9 < 0.4.0'
@@ -693,8 +693,8 @@ packages:
   '@octokit/openapi-types@22.2.0':
     resolution: {integrity: sha512-QBhVjcUa9W7Wwhm6DBFu6ZZ+1/t/oYxqc2tp81Pi41YNuJinbFRx8B133qVOrAaBbF7D/m0Et6f9/pZt9Rc+tg==}
 
-  '@octokit/openapi-webhooks-types@8.3.0':
-    resolution: {integrity: sha512-vKLsoR4xQxg4Z+6rU/F65ItTUz/EXbD+j/d4mlq2GW8TsA4Tc8Kdma2JTAAJ5hrKWUQzkR/Esn2fjsqiVRYaQg==}
+  '@octokit/openapi-webhooks-types@8.5.1':
+    resolution: {integrity: sha512-i3h1b5zpGSB39ffBbYdSGuAd0NhBAwPyA3QV3LYi/lx4lsbZiu7u2UHgXVUR6EpvOI8REOuVh1DZTRfHoJDvuQ==}
 
   '@octokit/plugin-paginate-graphql@5.2.4':
     resolution: {integrity: sha512-pLZES1jWaOynXKHOqdnwZ5ULeVR6tVVCMm+AUbp0htdcyXDU95WbkYdU4R2ej1wKj5Tu94Mee2Ne0PjPO9cCyA==}
@@ -741,8 +741,8 @@ packages:
     resolution: {integrity: sha512-yFZa3UH11VIxYnnoOYCVoJ3q4ChuSOk2IVBBQ0O3xtKX4x9bmKb/1t+Mxixv2iUhzMdOl1qeWJqEhouXXzB3rQ==}
     engines: {node: '>= 18'}
 
-  '@octokit/webhooks@13.3.0':
-    resolution: {integrity: sha512-TUkJLtI163Bz5+JK0O+zDkQpn4gKwN+BovclUvCj6pI/6RXrFqQvUMRS2M+Rt8Rv0qR3wjoMoOPmpJKeOh0nBg==}
+  '@octokit/webhooks@13.4.1':
+    resolution: {integrity: sha512-I5YPUtfWidh+OzyrlDahJsUpkpGK0kCTmDRbuqGmlCUzOtxdEkX3R4d6Cd08ijQYwkVXQJanPdbKuZBeV2NMaA==}
     engines: {node: '>= 18'}
 
   '@protobufjs/aspromise@1.1.2':
@@ -899,8 +899,8 @@ packages:
   '@types/node@18.19.64':
     resolution: {integrity: sha512-955mDqvO2vFf/oL7V3WiUtiz+BugyX8uVbaT2H8oj3+8dRyH2FLiNdowe7eNqRM7IOIZvzDH76EoAT+gwm6aIQ==}
 
-  '@types/node@22.9.0':
-    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
+  '@types/node@22.9.1':
+    resolution: {integrity: sha512-p8Yy/8sw1caA8CdRIQBG5tiLHmxtQKObCijiAa9Ez+d4+PRffM4054xbju0msf+cvhJpnFEeNjxmVT/0ipktrg==}
 
   '@types/retry@0.12.0':
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
@@ -2840,8 +2840,8 @@ packages:
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
-  yaml@2.6.0:
-    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
+  yaml@2.6.1:
+    resolution: {integrity: sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -2999,23 +2999,23 @@ snapshots:
     transitivePeerDependencies:
       - openai
 
-  '@langchain/langgraph-checkpoint@0.0.11(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))':
+  '@langchain/langgraph-checkpoint@0.0.12(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))':
     dependencies:
       '@langchain/core': 0.3.18(openai@4.72.0(zod@3.23.8))
       uuid: 10.0.0
 
-  '@langchain/langgraph-sdk@0.0.25':
+  '@langchain/langgraph-sdk@0.0.26':
     dependencies:
       '@types/json-schema': 7.0.15
       p-queue: 6.6.2
       p-retry: 4.6.2
       uuid: 9.0.1
 
-  '@langchain/langgraph@0.2.21(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))':
+  '@langchain/langgraph@0.2.22(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))':
     dependencies:
       '@langchain/core': 0.3.18(openai@4.72.0(zod@3.23.8))
-      '@langchain/langgraph-checkpoint': 0.0.11(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))
-      '@langchain/langgraph-sdk': 0.0.25
+      '@langchain/langgraph-checkpoint': 0.0.12(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))
+      '@langchain/langgraph-sdk': 0.0.26
       uuid: 10.0.0
       zod: 3.23.8
 
@@ -3089,7 +3089,7 @@ snapshots:
       '@octokit/oauth-app': 7.1.3
       '@octokit/plugin-paginate-rest': 11.3.5(@octokit/core@6.1.2)
       '@octokit/types': 13.6.1
-      '@octokit/webhooks': 13.3.0
+      '@octokit/webhooks': 13.4.1
 
   '@octokit/auth-app@7.1.3':
     dependencies:
@@ -3175,7 +3175,7 @@ snapshots:
 
   '@octokit/openapi-types@22.2.0': {}
 
-  '@octokit/openapi-webhooks-types@8.3.0': {}
+  '@octokit/openapi-webhooks-types@8.5.1': {}
 
   '@octokit/plugin-paginate-graphql@5.2.4(@octokit/core@6.1.2)':
     dependencies:
@@ -3221,9 +3221,9 @@ snapshots:
 
   '@octokit/webhooks-methods@5.1.0': {}
 
-  '@octokit/webhooks@13.3.0':
+  '@octokit/webhooks@13.4.1':
     dependencies:
-      '@octokit/openapi-webhooks-types': 8.3.0
+      '@octokit/openapi-webhooks-types': 8.5.1
       '@octokit/request-error': 6.1.5
       '@octokit/webhooks-methods': 5.1.0
 
@@ -3353,7 +3353,7 @@ snapshots:
 
   '@types/node-fetch@2.6.12':
     dependencies:
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
       form-data: 4.0.1
 
   '@types/node@10.14.22': {}
@@ -3362,7 +3362,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.9.0':
+  '@types/node@22.9.1':
     dependencies:
       undici-types: 6.19.8
 
@@ -3575,7 +3575,7 @@ snapshots:
   axios@1.7.4(debug@4.3.7):
     dependencies:
       follow-redirects: 1.15.9(debug@4.3.7)
-      form-data: 4.0.0
+      form-data: 4.0.1
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -4623,7 +4623,7 @@ snapshots:
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
-      yaml: 2.6.0
+      yaml: 2.6.1
       zod: 3.23.8
       zod-to-json-schema: 3.23.5(zod@3.23.8)
     optionalDependencies:
@@ -5060,7 +5060,7 @@ snapshots:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
       long: 4.0.0
 
   proxy-from-env@1.1.0: {}
@@ -5584,7 +5584,7 @@ snapshots:
 
   yallist@4.0.0: {}
 
-  yaml@2.6.0: {}
+  yaml@2.6.1: {}
 
   yargs-parser@21.1.1: {}
 
