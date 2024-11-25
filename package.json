@@ -20,7 +20,7 @@
     "@stylistic/eslint-plugin-ts": "^2.11.0",
     "@types/async-retry": "^1.4.9",
     "@types/html-to-text": "^9.0.4",
-    "@types/node": "^22.9.2",
+    "@types/node": "^22.9.3",
     "@types/uuid": "^10.0.0",
     "eslint": "^9.15.0",
     "eslint-import-resolver-typescript": "^3.6.3",
