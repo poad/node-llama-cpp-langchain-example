@@ -32,7 +32,7 @@
   "dependencies": {
     "@langchain/community": "^0.3.17",
     "@langchain/core": "^0.3.22",
-    "@langchain/langgraph": "^0.2.26",
+    "@langchain/langgraph": "^0.2.27",
     "@xenova/transformers": "^2.17.2",
     "html-to-text": "^9.0.5",
     "jsdom": "^25.0.1",
@@ -40,5 +40,5 @@
     "node-llama-cpp": "^3.3.0",
     "uuid": "^11.0.3"
   },
-  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }
