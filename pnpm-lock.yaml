@@ -30,8 +30,8 @@ importers:
         specifier: ^0.3.6
         version: 0.3.6(@langchain/core@0.3.22(openai@4.76.0(zod@3.23.8)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.76.0(zod@3.23.8))
       node-llama-cpp:
-        specifier: ^3.3.0
-        version: 3.3.0(typescript@5.7.2)
+        specifier: ^3.3.1
+        version: 3.3.1(typescript@5.7.2)
       uuid:
         specifier: ^11.0.3
         version: 11.0.3
@@ -40,17 +40,17 @@ importers:
         specifier: ^9.16.0
         version: 9.16.0
       '@stylistic/eslint-plugin':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0)(typescript@5.7.2)
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0)(typescript@5.7.2)
       '@stylistic/eslint-plugin-js':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0)
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0)
       '@stylistic/eslint-plugin-plus':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0)
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0)
       '@stylistic/eslint-plugin-ts':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0)(typescript@5.7.2)
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0)(typescript@5.7.2)
       '@types/async-retry':
         specifier: ^1.4.9
         version: 1.4.9
@@ -681,68 +681,68 @@ packages:
     peerDependencies:
       '@langchain/core': '>=0.2.21 <0.4.0'
 
-  '@node-llama-cpp/linux-arm64@3.3.0':
-    resolution: {integrity: sha512-Umpm1i9rjkkP0uk+ykTkN7Uhtl8FC7+Hih3PRohRHkXEPB47TtOtTXbuB6B2T/s1GnNYAuoCPJKKuljJohBjBQ==}
+  '@node-llama-cpp/linux-arm64@3.3.1':
+    resolution: {integrity: sha512-AU+wva/pJ6Q8SZOzBh24Yx0g6XCAXS1enmKbZuZ7WxgtLvMushCFPIBFO7Jxf+LJImYb9BrD7CLDG6Oh6K807g==}
     engines: {node: '>=18.0.0'}
     cpu: [arm64, x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-armv7l@3.3.0':
-    resolution: {integrity: sha512-LtRXlJqpOaRl3aTzSyX7D1X1nJOSrumDW0lZtYnjSvXvuH4WsgWX4RpG/+YcVBWivZSitlm4pcGpI0X+vW+P9Q==}
+  '@node-llama-cpp/linux-armv7l@3.3.1':
+    resolution: {integrity: sha512-QoSYLURvvuvOzatAYM2C4bj6MIJJYDTBRVNQH7b8jGMty4DCwPB2ardSMU2k3ih6nVUJ14lGnAamYTkXYpWbyQ==}
     engines: {node: '>=18.0.0'}
     cpu: [arm, x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64-cuda@3.3.0':
-    resolution: {integrity: sha512-gcrZ9HQKqvrxY1YndQUkcuV7jYZ7d4aZSlnlpMuhFIKjKl2hE0M2wq22yMFdbHCjAS09771H0dpxfcquLAszYg==}
+  '@node-llama-cpp/linux-x64-cuda@3.3.1':
+    resolution: {integrity: sha512-c4qOqlNuCHbp9OMvd9JfAV/NP9pQCaVZp+TfVTuBTsLhHEMAryz0usTdWjbZ7AAoRGFZMiGcE2h2gr1qvE9uZg==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64-vulkan@3.3.0':
-    resolution: {integrity: sha512-9CkEBENOKEJcyV9J3ngvFrIl6FEyHqAvsmR8sfOHl5kcnU5L4J86/pxlKR8hrmrZjETtqW5IRm5pWoP0YRqusA==}
+  '@node-llama-cpp/linux-x64-vulkan@3.3.1':
+    resolution: {integrity: sha512-63LZw3MORQrFHGLZNDqiBCGg1WEXjDRm2ys9gkGXEQPH/bqZ1yF7AG6mQZs+RpGDGw6xVj9d8jFSnEpg0G6B5g==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64@3.3.0':
-    resolution: {integrity: sha512-dAyGgNV0B5iJg8EIEQhSWolx/QZzhAuHf8E1+hmkjfZn/xOsl4mrqucFmWsLtkqMMzNr/i45qUjpT46ogaPeRA==}
+  '@node-llama-cpp/linux-x64@3.3.1':
+    resolution: {integrity: sha512-BIMcOxL0KVNOx6aPc0qzefTH7BcI1bCVlXF42Et9EFrcu34MfPG7/thp0nHWM/VUEaGk/PtvbFx/5joT2sqHnA==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/mac-arm64-metal@3.3.0':
-    resolution: {integrity: sha512-jsVozim4hqdTcZU8x5XGRicAtQimvPKuPxJI9Uitar4d2G2GgbjT54ZcefRlwK5QxeszeQJCPcH728DqeEK2WQ==}
+  '@node-llama-cpp/mac-arm64-metal@3.3.1':
+    resolution: {integrity: sha512-n5WPTaKDZ6DMsJI3OS+/DfrGHp6ER4Xd8ZgQ3ncek8LEL1vAf4b/PBpJewuXTtNGJw64rIyq+XEC2HPrXawkew==}
     engines: {node: '>=18.0.0'}
     cpu: [arm64, x64]
     os: [darwin]
 
-  '@node-llama-cpp/mac-x64@3.3.0':
-    resolution: {integrity: sha512-+zcth9LHA+W3tHF6W9M5b46bn7uToELNqiaA9FLJIH542rdzugUhlYH0DgztKmpAiG02bI9otBFSIyBzHM9HVQ==}
+  '@node-llama-cpp/mac-x64@3.3.1':
+    resolution: {integrity: sha512-Bz6Di8PxEDXUgwDGxyA9AuwZtTgTGA2zsROAfCYnRIKQWHmQ4vYBeFeL07r6E1RQy/k1AxpR5qte95L3ssZy8Q==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [darwin]
 
-  '@node-llama-cpp/win-arm64@3.3.0':
-    resolution: {integrity: sha512-PMeMLqhAkQut0wZU5MhmBhAXvyqqPDZ8cxHOUrdY/gmbrfkn+rU2wP0ing1LfpRFsNFThTeCA6PfKbqEFmdJTQ==}
+  '@node-llama-cpp/win-arm64@3.3.1':
+    resolution: {integrity: sha512-SURGGhG/z6mLhU4rU7KTDWochKppYdXET4TFs6gS40x5bVf14n7BBFsSwZwwwho5nBCuTRLrNWjAAlBSF6n+mQ==}
     engines: {node: '>=18.0.0'}
     cpu: [arm64, x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64-cuda@3.3.0':
-    resolution: {integrity: sha512-4WfNLspDDoEw105nDrGxv0K+V73yazPOf1yjkEogg/BWygYg5tunTxG+HFqW/LucmzrjLMXrIiaHFOQy/HsFMg==}
+  '@node-llama-cpp/win-x64-cuda@3.3.1':
+    resolution: {integrity: sha512-oBjGefU4Wda02k0r6YtDAmew0/nlIk1BsIjqx+A/HVgyNWF0mMycn5gctPg/O3ugQylyYUfX5y0tLpJGROIyvw==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64-vulkan@3.3.0':
-    resolution: {integrity: sha512-5qO07CtfGIG+37eChz14EKg8M+Ll/9I+/8XcgSRvqRyQF6smmWTdiVXo3ZW9+sdsahXQBmMFUmwHgOBndz/jww==}
+  '@node-llama-cpp/win-x64-vulkan@3.3.1':
+    resolution: {integrity: sha512-oX1eWkVN89aM0l4HxIpb5zQ9xH3dDeIuviiskj8R+/cbSae5p7nBamlJJwLp95qwR69gpu32XdcKFy0vVK+83A==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64@3.3.0':
-    resolution: {integrity: sha512-28sQEMqNRrB63ARhsxrbpYKgXZ0lKdUctfJTN/SC/7OYGEUU+oBlLYVKL7FdfoiyPlI/sE43pu0ykEj/icC0BQ==}
+  '@node-llama-cpp/win-x64@3.3.1':
+    resolution: {integrity: sha512-k+2b6uJ6afOicWZVWGKKKnsXtMUtA+9qM32ViJfGtxjs6HWE97vQYcUreV5n0Hx5TwmthnS+OgmvPquJQfRjnQ==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [win32]
@@ -963,25 +963,25 @@ packages:
   '@selderee/plugin-htmlparser2@0.11.0':
     resolution: {integrity: sha512-P33hHGdldxGabLFjPPpaTxVolMrzrcegejx+0GxjrIb9Zv48D8yAIA/QTDR2dFl7Uz7urX8aX6+5bCZslr+gWQ==}
 
-  '@stylistic/eslint-plugin-js@2.11.0':
-    resolution: {integrity: sha512-btchD0P3iij6cIk5RR5QMdEhtCCV0+L6cNheGhGCd//jaHILZMTi/EOqgEDAf1s4ZoViyExoToM+S2Iwa3U9DA==}
+  '@stylistic/eslint-plugin-js@2.12.0':
+    resolution: {integrity: sha512-HMA+qhlDLmLiYC0nyLPEJT4CBq3BP9ri51WECRKmEjO6RZm41MVZCJl+IfUcp2sUvGSl3/FSK5gzgBKcVv8S3w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin-plus@2.11.0':
-    resolution: {integrity: sha512-m8dkgJWdLMdVyZRo7+AlZ6sBPhoxn9N3I3QftfODLHkCOpF9o2K7rN0J2yX2e1lbmFKnSb/SaLrNsiqm6l4HAw==}
+  '@stylistic/eslint-plugin-plus@2.12.0':
+    resolution: {integrity: sha512-90X/B58m7TMotKFW/+UE1ETULAT5ja3XyVyMcIt5p+T5tYcZw1HtM6dJc78lEdPLewiMJ0894EURpITldpgRJw==}
     peerDependencies:
       eslint: '*'
 
-  '@stylistic/eslint-plugin-ts@2.11.0':
-    resolution: {integrity: sha512-ZBxnfSjzxUiwCibbVCeYCYwZw+P5xaQw+pNA8B8uR42fdMQIOhUstXjJuS2nTHoW5CF4+vGSxbL4gklI8WxhyA==}
+  '@stylistic/eslint-plugin-ts@2.12.0':
+    resolution: {integrity: sha512-JqoHGQCeW0dC3LN/7+ZRwTOCs3kBum2b4k7ovx+0RXeaDIINs5F+/Mp/NvTCPqDzUlBkd1HOaviKyaEWpKA7Yw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin@2.11.0':
-    resolution: {integrity: sha512-PNRHbydNG5EH8NK4c+izdJlxajIR6GxcUhzsYNRsn6Myep4dsZt0qFCz3rCPnkvgO5FYibDcMqgNHUT+zvjYZw==}
+  '@stylistic/eslint-plugin@2.12.0':
+    resolution: {integrity: sha512-IvD2WXbOoSp0zNpyYbjdSyEjZtut78RYfj2WIlbChE7HFuposTK5X1hc5+4AyqYcjLXYdD5oo/sJtqMGFNRb1w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -1123,8 +1123,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  agent-base@7.1.2:
-    resolution: {integrity: sha512-JVzqkCNRT+VfqzzgPWDPnwvDheSAUdiMUn3NoLXpDJF5lRqeJqyC9iGsAxIOAW+mzIdq+uP1TvcX6bMtrH0agg==}
+  agent-base@7.1.3:
+    resolution: {integrity: sha512-jRR5wdylq8CkOe6hei19GGZnxM6rBGwFl3Bg0YItGDimvjGtAvdZk4Pu6Cl4u4Igsws4a1fd1Vq3ezrhn4KmFw==}
     engines: {node: '>= 14'}
 
   agentkeepalive@4.5.0:
@@ -1275,8 +1275,8 @@ packages:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
 
-  call-bind-apply-helpers@1.0.0:
-    resolution: {integrity: sha512-CCKAP2tkPau7D3GE8+V8R6sQubA9R5foIzGp+85EXCVSCivuxBNAWqcpn72PKYiIcqoViv/kcUDpaEIMBVi1lQ==}
+  call-bind-apply-helpers@1.0.1:
+    resolution: {integrity: sha512-BhYE+WDaywFg2TBWYNXAE+8B1ATnThNBqXHP5nQu0jWJdVvY2hvkpyB3qOmtmDePiS5/BDQ8wASEWGMWRG148g==}
     engines: {node: '>= 0.4'}
 
   call-bind@1.0.8:
@@ -2328,8 +2328,8 @@ packages:
       encoding:
         optional: true
 
-  node-llama-cpp@3.3.0:
-    resolution: {integrity: sha512-VcwUd9Y5UgDBL4/p8C1ZoyiXTYwUH1Tqb00mMvAYXEyw0GllPApYvGwfTDIW+25mYIww7QiEiWJrayW+N/31KA==}
+  node-llama-cpp@3.3.1:
+    resolution: {integrity: sha512-Lon8EbaT6GMUOkuuhyoqQTnbPz35BZsCnbKWboE+BhpVwcoTOPLI9wOa05y6Q1BquoO8Fj1PtY7jRH25RhL6DQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -3371,37 +3371,37 @@ snapshots:
       '@langchain/core': 0.3.22(openai@4.76.0(zod@3.23.8))
       js-tiktoken: 1.0.15
 
-  '@node-llama-cpp/linux-arm64@3.3.0':
+  '@node-llama-cpp/linux-arm64@3.3.1':
     optional: true
 
-  '@node-llama-cpp/linux-armv7l@3.3.0':
+  '@node-llama-cpp/linux-armv7l@3.3.1':
     optional: true
 
-  '@node-llama-cpp/linux-x64-cuda@3.3.0':
+  '@node-llama-cpp/linux-x64-cuda@3.3.1':
     optional: true
 
-  '@node-llama-cpp/linux-x64-vulkan@3.3.0':
+  '@node-llama-cpp/linux-x64-vulkan@3.3.1':
     optional: true
 
-  '@node-llama-cpp/linux-x64@3.3.0':
+  '@node-llama-cpp/linux-x64@3.3.1':
     optional: true
 
-  '@node-llama-cpp/mac-arm64-metal@3.3.0':
+  '@node-llama-cpp/mac-arm64-metal@3.3.1':
     optional: true
 
-  '@node-llama-cpp/mac-x64@3.3.0':
+  '@node-llama-cpp/mac-x64@3.3.1':
     optional: true
 
-  '@node-llama-cpp/win-arm64@3.3.0':
+  '@node-llama-cpp/win-arm64@3.3.1':
     optional: true
 
-  '@node-llama-cpp/win-x64-cuda@3.3.0':
+  '@node-llama-cpp/win-x64-cuda@3.3.1':
     optional: true
 
-  '@node-llama-cpp/win-x64-vulkan@3.3.0':
+  '@node-llama-cpp/win-x64-vulkan@3.3.1':
     optional: true
 
-  '@node-llama-cpp/win-x64@3.3.0':
+  '@node-llama-cpp/win-x64@3.3.1':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3634,17 +3634,17 @@ snapshots:
       domhandler: 5.0.3
       selderee: 0.11.0
 
-  '@stylistic/eslint-plugin-js@2.11.0(eslint@9.16.0)':
+  '@stylistic/eslint-plugin-js@2.12.0(eslint@9.16.0)':
     dependencies:
       eslint: 9.16.0
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
-  '@stylistic/eslint-plugin-plus@2.11.0(eslint@9.16.0)':
+  '@stylistic/eslint-plugin-plus@2.12.0(eslint@9.16.0)':
     dependencies:
       eslint: 9.16.0
 
-  '@stylistic/eslint-plugin-ts@2.11.0(eslint@9.16.0)(typescript@5.7.2)':
+  '@stylistic/eslint-plugin-ts@2.12.0(eslint@9.16.0)(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/utils': 8.17.0(eslint@9.16.0)(typescript@5.7.2)
       eslint: 9.16.0
@@ -3654,7 +3654,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@stylistic/eslint-plugin@2.11.0(eslint@9.16.0)(typescript@5.7.2)':
+  '@stylistic/eslint-plugin@2.12.0(eslint@9.16.0)(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/utils': 8.17.0(eslint@9.16.0)(typescript@5.7.2)
       eslint: 9.16.0
@@ -3815,11 +3815,7 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  agent-base@7.1.2:
-    dependencies:
-      debug: 4.4.0
-    transitivePeerDependencies:
-      - supports-color
+  agent-base@7.1.3: {}
 
   agentkeepalive@4.5.0:
     dependencies:
@@ -3920,7 +3916,7 @@ snapshots:
   axios@1.7.4(debug@4.4.0):
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
-      form-data: 4.0.0
+      form-data: 4.0.1
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -3999,14 +3995,14 @@ snapshots:
 
   bytes@3.1.2: {}
 
-  call-bind-apply-helpers@1.0.0:
+  call-bind-apply-helpers@1.0.1:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
 
   call-bind@1.0.8:
     dependencies:
-      call-bind-apply-helpers: 1.0.0
+      call-bind-apply-helpers: 1.0.1
       es-define-property: 1.0.1
       get-intrinsic: 1.2.5
       set-function-length: 1.2.2
@@ -4228,7 +4224,7 @@ snapshots:
 
   dunder-proto@1.0.0:
     dependencies:
-      call-bind-apply-helpers: 1.0.0
+      call-bind-apply-helpers: 1.0.1
       es-errors: 1.3.0
       gopd: 1.2.0
 
@@ -4609,7 +4605,7 @@ snapshots:
 
   get-intrinsic@1.2.5:
     dependencies:
-      call-bind-apply-helpers: 1.0.0
+      call-bind-apply-helpers: 1.0.1
       dunder-proto: 1.0.0
       es-define-property: 1.0.1
       es-errors: 1.3.0
@@ -4706,14 +4702,14 @@ snapshots:
 
   http-proxy-agent@7.0.2:
     dependencies:
-      agent-base: 7.1.2
+      agent-base: 7.1.3
       debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.6:
     dependencies:
-      agent-base: 7.1.2
+      agent-base: 7.1.3
       debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
@@ -5152,7 +5148,7 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  node-llama-cpp@3.3.0(typescript@5.7.2):
+  node-llama-cpp@3.3.1(typescript@5.7.2):
     dependencies:
       '@huggingface/jinja': 0.3.2
       async-retry: 1.3.3
@@ -5185,17 +5181,17 @@ snapshots:
       which: 5.0.0
       yargs: 17.7.2
     optionalDependencies:
-      '@node-llama-cpp/linux-arm64': 3.3.0
-      '@node-llama-cpp/linux-armv7l': 3.3.0
-      '@node-llama-cpp/linux-x64': 3.3.0
-      '@node-llama-cpp/linux-x64-cuda': 3.3.0
-      '@node-llama-cpp/linux-x64-vulkan': 3.3.0
-      '@node-llama-cpp/mac-arm64-metal': 3.3.0
-      '@node-llama-cpp/mac-x64': 3.3.0
-      '@node-llama-cpp/win-arm64': 3.3.0
-      '@node-llama-cpp/win-x64': 3.3.0
-      '@node-llama-cpp/win-x64-cuda': 3.3.0
-      '@node-llama-cpp/win-x64-vulkan': 3.3.0
+      '@node-llama-cpp/linux-arm64': 3.3.1
+      '@node-llama-cpp/linux-armv7l': 3.3.1
+      '@node-llama-cpp/linux-x64': 3.3.1
+      '@node-llama-cpp/linux-x64-cuda': 3.3.1
+      '@node-llama-cpp/linux-x64-vulkan': 3.3.1
+      '@node-llama-cpp/mac-arm64-metal': 3.3.1
+      '@node-llama-cpp/mac-x64': 3.3.1
+      '@node-llama-cpp/win-arm64': 3.3.1
+      '@node-llama-cpp/win-x64': 3.3.1
+      '@node-llama-cpp/win-x64-cuda': 3.3.1
+      '@node-llama-cpp/win-x64-vulkan': 3.3.1
       typescript: 5.7.2
     transitivePeerDependencies:
       - supports-color
