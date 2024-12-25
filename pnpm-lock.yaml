@@ -15,8 +15,8 @@ importers:
         specifier: ^0.3.26
         version: 0.3.26(openai@4.77.0(zod@3.24.1))
       '@langchain/langgraph':
-        specifier: ^0.2.34
-        version: 0.2.34(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))
+        specifier: ^0.2.36
+        version: 0.2.36(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))
       '@xenova/transformers':
         specifier: ^2.17.2
         version: 2.17.2
@@ -27,8 +27,8 @@ importers:
         specifier: ^25.0.1
         version: 25.0.1
       langchain:
-        specifier: ^0.3.7
-        version: 0.3.7(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.77.0(zod@3.24.1))
+        specifier: ^0.3.8
+        version: 0.3.8(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.77.0(zod@3.24.1))
       node-llama-cpp:
         specifier: ^3.3.1
         version: 3.3.1(typescript@5.7.2)
@@ -669,8 +669,8 @@ packages:
   '@langchain/langgraph-sdk@0.0.32':
     resolution: {integrity: sha512-KQyM9kLO7T6AxwNrceajH7JOybP3pYpvUPnhiI2rrVndI1WyZUJ1eVC1e722BVRAPi6o+WcoTT4uMSZVinPOtA==}
 
-  '@langchain/langgraph@0.2.34':
-    resolution: {integrity: sha512-fSlmLYre+Skh5XJgBGe5YRtXaHyGMTlhu5UN3LzIgA3E9CmGODvH+Ydyk5vJzhXMjnPpLr8icqlKxKrYmZ3gTw==}
+  '@langchain/langgraph@0.2.36':
+    resolution: {integrity: sha512-zxk7ZCVxP0/Ut9785EiXCS7BE7sXd8cu943mcZUF2aNFUaQRTBbbiKpNdR3nb1+xO/B+HVktrJT2VFdkAywnng==}
     engines: {node: '>=18'}
     peerDependencies:
       '@langchain/core': '>=0.2.36 <0.3.0 || >=0.3.9 < 0.4.0'
@@ -1472,8 +1472,8 @@ packages:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
 
-  domutils@3.1.0:
-    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+  domutils@3.2.1:
+    resolution: {integrity: sha512-xWXmuRnN9OMP6ptPd2+H0cCbcYBULa5YDTbMm/2lvkWvNA3O4wcW+GvzooqBuNM8yy6pl3VIAeJTUUWUbfI5Fw==}
 
   dotenv@16.4.7:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
@@ -2106,8 +2106,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  langchain@0.3.7:
-    resolution: {integrity: sha512-6/Gkk9Zez3HkbsETFxZVo1iKLmaK3OzkDseC5MYFKVmYFDXFAOyJR3srJ9P61xF8heVdsPixqYIsejBn7/9dXg==}
+  langchain@0.3.8:
+    resolution: {integrity: sha512-EiAHFgBdThuXFmIx9j81wjdPItpRsw0Ck4r5dyhB74gyhehRGna/UK2CTqeKVnIUM/f4g4JbxUgAU4voXljDMw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@langchain/anthropic': '*'
@@ -2167,8 +2167,8 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  lifecycle-utils@1.7.1:
-    resolution: {integrity: sha512-zK0R8Ap4XLDR1RBMR5IdYz416/rMQNURLOowRkGChS7RZrhqHq+lx16Mky2b70Q0tdE+tlIDmWJzuMP8BOhZNg==}
+  lifecycle-utils@1.7.3:
+    resolution: {integrity: sha512-T7zs7J6/sgsqwVyG34Sfo5LTQmlPmmqaUe3yBhdF8nq24RtR/HtbkNZRhNbr9BEaKySdSgH+P9H5U9X+p0WjXw==}
 
   locate-path@6.0.0:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
@@ -2825,11 +2825,11 @@ packages:
   text-decoder@1.2.3:
     resolution: {integrity: sha512-3/o9z3X0X0fTupwsYvR03pJ/DjWuqqrfwBgTQzdWDiQSm9KitAyz/9WqsT2JQW7KV2m+bC2ol/zqpW37NHxLaA==}
 
-  tldts-core@6.1.69:
-    resolution: {integrity: sha512-nygxy9n2PBUFQUtAXAc122gGo+04/j5qr5TGQFZTHafTKYvmARVXt2cA5rgero2/dnXUfkdPtiJoKmrd3T+wdA==}
+  tldts-core@6.1.70:
+    resolution: {integrity: sha512-RNnIXDB1FD4T9cpQRErEqw6ZpjLlGdMOitdV+0xtbsnwr4YFka1zpc7D4KD+aAn8oSG5JyFrdasZTE04qDE9Yg==}
 
-  tldts@6.1.69:
-    resolution: {integrity: sha512-Oh/CqRQ1NXNY7cy9NkTPUauOWiTro0jEYZTioGbOmcQh6EC45oribyIMJp0OJO3677r13tO6SKdWoGZUx2BDFw==}
+  tldts@6.1.70:
+    resolution: {integrity: sha512-/W1YVgYVJd9ZDjey5NXadNh0mJXkiUMUue9Zebd0vpdo1sU+H4zFFTaJ1RKD4N6KFoHfcXy6l+Vu7bh+bdWCzA==}
     hasBin: true
 
   to-regex-range@5.0.1:
@@ -3299,7 +3299,7 @@ snapshots:
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
-      langchain: 0.3.7(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.77.0(zod@3.24.1))
+      langchain: 0.3.8(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.77.0(zod@3.24.1))
       langsmith: 0.2.14(openai@4.77.0(zod@3.24.1))
       openai: 4.77.0(zod@3.24.1)
       uuid: 10.0.0
@@ -3360,7 +3360,7 @@ snapshots:
       p-retry: 4.6.2
       uuid: 9.0.1
 
-  '@langchain/langgraph@0.2.34(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))':
+  '@langchain/langgraph@0.2.36(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))':
     dependencies:
       '@langchain/core': 0.3.26(openai@4.77.0(zod@3.24.1))
       '@langchain/langgraph-checkpoint': 0.0.13(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))
@@ -4036,7 +4036,7 @@ snapshots:
       css-what: 6.1.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
     optional: true
 
   cheerio@1.0.0:
@@ -4044,7 +4044,7 @@ snapshots:
       cheerio-select: 2.1.0
       dom-serializer: 2.0.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
       encoding-sniffer: 0.2.0
       htmlparser2: 9.1.0
       parse5: 7.2.1
@@ -4135,7 +4135,7 @@ snapshots:
       boolbase: 1.0.0
       css-what: 6.1.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
       nth-check: 2.1.1
     optional: true
 
@@ -4225,7 +4225,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  domutils@3.1.0:
+  domutils@3.2.1:
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -4705,14 +4705,14 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
       entities: 4.5.0
 
   htmlparser2@9.1.0:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
       entities: 4.5.0
     optional: true
 
@@ -4791,7 +4791,7 @@ snapshots:
       filenamify: 6.0.0
       fs-extra: 11.2.0
       is-unicode-supported: 2.1.0
-      lifecycle-utils: 1.7.1
+      lifecycle-utils: 1.7.3
       lodash.debounce: 4.0.8
       lowdb: 7.0.1
       pretty-bytes: 6.1.1
@@ -5011,7 +5011,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  langchain@0.3.7(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.77.0(zod@3.24.1)):
+  langchain@0.3.8(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.77.0(zod@3.24.1)):
     dependencies:
       '@langchain/core': 0.3.26(openai@4.77.0(zod@3.24.1))
       '@langchain/openai': 0.3.16(@langchain/core@0.3.26(openai@4.77.0(zod@3.24.1)))
@@ -5051,7 +5051,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  lifecycle-utils@1.7.1: {}
+  lifecycle-utils@1.7.3: {}
 
   locate-path@6.0.0:
     dependencies:
@@ -5184,7 +5184,7 @@ snapshots:
       ignore: 5.3.2
       ipull: 3.9.2
       is-unicode-supported: 2.1.0
-      lifecycle-utils: 1.7.1
+      lifecycle-utils: 1.7.3
       log-symbols: 7.0.0
       nanoid: 5.0.9
       node-addon-api: 8.3.0
@@ -5846,11 +5846,11 @@ snapshots:
     dependencies:
       b4a: 1.6.7
 
-  tldts-core@6.1.69: {}
+  tldts-core@6.1.70: {}
 
-  tldts@6.1.69:
+  tldts@6.1.70:
     dependencies:
-      tldts-core: 6.1.69
+      tldts-core: 6.1.70
 
   to-regex-range@5.0.1:
     dependencies:
@@ -5872,7 +5872,7 @@ snapshots:
 
   tough-cookie@5.0.0:
     dependencies:
-      tldts: 6.1.69
+      tldts: 6.1.70
 
   tr46@0.0.3: {}
 
