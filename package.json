@@ -27,7 +27,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.19.0"
+    "typescript-eslint": "^8.19.1"
   },
   "dependencies": {
     "@langchain/community": "^0.3.22",
@@ -36,7 +36,7 @@
     "@xenova/transformers": "^2.17.2",
     "html-to-text": "^9.0.5",
     "jsdom": "^25.0.1",
-    "langchain": "^0.3.9",
+    "langchain": "^0.3.10",
     "node-llama-cpp": "^3.3.2",
     "uuid": "^11.0.4"
   },
