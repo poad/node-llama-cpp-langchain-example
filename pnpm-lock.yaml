@@ -30,8 +30,8 @@ importers:
         specifier: ^0.3.12
         version: 0.3.12(@langchain/core@0.3.33(openai@4.80.0(ws@8.18.0)(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.80.0(ws@8.18.0)(zod@3.24.1))(ws@8.18.0)
       node-llama-cpp:
-        specifier: ^3.4.0
-        version: 3.4.0(typescript@5.7.3)
+        specifier: ^3.4.1
+        version: 3.4.1(typescript@5.7.3)
       uuid:
         specifier: ^11.0.5
         version: 11.0.5
@@ -58,8 +58,8 @@ importers:
         specifier: ^9.0.4
         version: 9.0.4
       '@types/node':
-        specifier: ^22.10.9
-        version: 22.10.9
+        specifier: ^22.10.10
+        version: 22.10.10
       '@types/uuid':
         specifier: ^10.0.0
         version: 10.0.0
@@ -718,68 +718,68 @@ packages:
     peerDependencies:
       '@langchain/core': '>=0.2.21 <0.4.0'
 
-  '@node-llama-cpp/linux-arm64@3.4.0':
-    resolution: {integrity: sha512-8D3oDVtaVqpwCI8PwshhMY9vrVmXVhw7mTNzf6UiK9QLFL37dD4pET4dkXcqtvfaWbCv1+1zTtlxZksGtn2Cyw==}
+  '@node-llama-cpp/linux-arm64@3.4.1':
+    resolution: {integrity: sha512-SpY5QZygqiaCcMnrPpdWMDkYRDfiXY6O71U2YNsAmsqH7g+XWChmUo8CQizpxtIJ1BnasTlx2eYGTtnyCkyxtg==}
     engines: {node: '>=18.0.0'}
     cpu: [arm64, x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-armv7l@3.4.0':
-    resolution: {integrity: sha512-ikC85RgZzDfqVh0+Cwh/aAFxF5ywMLPMLyI7waAwRZgqTtBVUjrb3+JI++a1gG+3pyFOoQFfgXNB62GSTzuE8A==}
+  '@node-llama-cpp/linux-armv7l@3.4.1':
+    resolution: {integrity: sha512-0t3skX5PlzC4RtTFEHYt4UVWzfO22KG9Z0aRpLlrCZ90bdi0Z0f2INeEZQF9vFG1gKjYDZBm42lSwYAaATGPTA==}
     engines: {node: '>=18.0.0'}
     cpu: [arm, x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64-cuda@3.4.0':
-    resolution: {integrity: sha512-zZqZKQ6xUm8m8A6KAeJDAvnwQyieovEnnhc564E2zmzgjZlTBji3LHUAfMrT/6t/BRpZsV8YKfLDOqkyuBBa7Q==}
+  '@node-llama-cpp/linux-x64-cuda@3.4.1':
+    resolution: {integrity: sha512-DmWa/2BlsS8HyRMitiUsKQ41XAIPUmP04Rvov+6LTipybo/ylDpdd5bVbTsr8lsMZFvSZMLNpoxUELfm1u9iqw==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64-vulkan@3.4.0':
-    resolution: {integrity: sha512-3Uh/NlDDtpzrRDJSdfQkRBG+VSJLT5thXkHTVvc6ssSh3yxUxNjkFniCKb0GypaXTMKie2hCA58CdVQUx1+5DQ==}
+  '@node-llama-cpp/linux-x64-vulkan@3.4.1':
+    resolution: {integrity: sha512-/Hp3QF/oBI8/aOJMEILqjwWQXjLIL6/cQx7wKPyFmIT8uF5X8hDBSAH6vVBr0NYReODC1JkoLB4mGTj9rMfeeQ==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64@3.4.0':
-    resolution: {integrity: sha512-Xdvz481PxQX767NYJz3axC6Ysm0ktIVSe8rt0r2EHm7/tbWEHBQyvN3PX/piw44yldif//G1DVU4eEbeV2fnxw==}
+  '@node-llama-cpp/linux-x64@3.4.1':
+    resolution: {integrity: sha512-PfA72+0e+txAmoPU+HPiKvOpQNssr6lDdfTXFMdRcwjQWhm+Q8tD5IX9Oq3CLSbnll9xggwczXoMDIxpVIjWrA==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/mac-arm64-metal@3.4.0':
-    resolution: {integrity: sha512-rRclEHF3d3Ou+OI76UrDI+katjoeJQ860ioMCsrlSlpCfI9+cdqGH0PmSZOTEPfiPinglqNUvy3q5QMKP447Yg==}
+  '@node-llama-cpp/mac-arm64-metal@3.4.1':
+    resolution: {integrity: sha512-QWSPe14HBwSgV/DgVpdynFaxeeKiEca9Z2GLBxfPMt4ssO8GI5Xh2bA/LMulhS3y9KBkkAmvKut7SWHLPRuJ/g==}
     engines: {node: '>=18.0.0'}
     cpu: [arm64, x64]
     os: [darwin]
 
-  '@node-llama-cpp/mac-x64@3.4.0':
-    resolution: {integrity: sha512-zqdn/pDLdww9qhQcnRiRLirrwAGx+Thz/IlwYzFOB34WjJhbvH6O8gZMtMtkur3L98qxPYrn4spXbI9mn3lCjA==}
+  '@node-llama-cpp/mac-x64@3.4.1':
+    resolution: {integrity: sha512-XT/BwVzMafZOP83lGhFYGWyrZ6xDJuKTD5BGEGtYrR7+N40OgSXUOgxun5OouqDYGsw/iI875DMZCee2TRtoTg==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [darwin]
 
-  '@node-llama-cpp/win-arm64@3.4.0':
-    resolution: {integrity: sha512-j3ABgnxhX/hv1/+ReLa7Iv3yEciqnfBQFU20skb7JQ3absqZdIOrC2Hltf4Zitdttwo5N0D7LRHc3KmWyT0V1Q==}
+  '@node-llama-cpp/win-arm64@3.4.1':
+    resolution: {integrity: sha512-305B1JBnwof6v4J+OlDtG173RXGdd/xxlRHUKcBB1hu3h6+krzYHsycFQH94/kFUXxRvR5IwOiHK4uySZHLpMA==}
     engines: {node: '>=18.0.0'}
     cpu: [arm64, x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64-cuda@3.4.0':
-    resolution: {integrity: sha512-MZM3dEfYmXfp+1QFaFY6yhxZaxF2b0dpgtg3SCTsROXSgYYD0XWE/biNe0XolKJXd9a5DqMShOgvkTWyUn4WIA==}
+  '@node-llama-cpp/win-x64-cuda@3.4.1':
+    resolution: {integrity: sha512-b2HSweGwIDqfTECO80x2BdE43kDlljoSu25UseARYuu3jYAk+Gob5i6z8Hs5WlaifHoIJRvFXCqBm8vD1nH0uQ==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64-vulkan@3.4.0':
-    resolution: {integrity: sha512-5KttYxOfTjdMJf9JI3Fs5Gz2S4S9BWav4f35JmnKEBNKHHU3SeMmL7J6Yz9cnqiiZ0Tzk6t3Vx1SDffsEN5lBg==}
+  '@node-llama-cpp/win-x64-vulkan@3.4.1':
+    resolution: {integrity: sha512-vwhl0mIZLSOimqdb8W171JBIBVGQiO5OYVhPJr/F9wD4GDAFobczZMkITfzghDoX/ChiD18XJm8UcsUp+u0IkA==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64@3.4.0':
-    resolution: {integrity: sha512-vFLhphHvbhndwWurH99ZN0W4TIqJ2LEwl7zuzJeeiAA3DeQNFhitxeQ7BPO+xbHSa6FGA69bNKS14obrKFBjWw==}
+  '@node-llama-cpp/win-x64@3.4.1':
+    resolution: {integrity: sha512-l17C7Tlv5zXwSGBNxhoSFGD7Z69+4j+nTDzmP/tovkg0IZ2YZLTluoA2R4lwPk2fnqvbW2K1WahWTQjRwHq/7w==}
     engines: {node: '>=18.0.0'}
     cpu: [x64]
     os: [win32]
@@ -1066,8 +1066,8 @@ packages:
   '@types/node@18.19.74':
     resolution: {integrity: sha512-HMwEkkifei3L605gFdV+/UwtpxP6JSzM+xFk2Ia6DNFSwSVBRh9qp5Tgf4lNFOMfPVuU0WnkcWpXZpgn5ufO4A==}
 
-  '@types/node@22.10.9':
-    resolution: {integrity: sha512-Ir6hwgsKyNESl/gLOcEz3krR4CBGgliDqBQ2ma4wIhEx0w+xnoeTq3tdrNw15kU3SxogDjOgv9sqdtLW8mIHaw==}
+  '@types/node@22.10.10':
+    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
 
   '@types/retry@0.12.0':
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
@@ -1473,8 +1473,8 @@ packages:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
 
-  decimal.js@10.4.3:
-    resolution: {integrity: sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA==}
+  decimal.js@10.5.0:
+    resolution: {integrity: sha512-8vDa8Qxvr/+d94hSh5P3IJwI5t8/c0KsMp+g8bNw9cY2icONa5aPfvKeieW1WlG0WQYwwhJ7mjui2xtiePQSXw==}
 
   decompress-response@6.0.0:
     resolution: {integrity: sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==}
@@ -2221,8 +2221,8 @@ packages:
       typeorm:
         optional: true
 
-  langsmith@0.3.2:
-    resolution: {integrity: sha512-QUaO6KdinTpts/vBsyPro/R0/Iop+TwTyEYYX8aSIvzwj5EVZY2/VxOefll51t1/E6sISEnra1EwdSCS74Y5NA==}
+  langsmith@0.3.3:
+    resolution: {integrity: sha512-B9B0ThaPYwNdTg9ck6bWF2Mjd1TJvVKLfLedufIudmO8aPDslcc2uVlyPEtskZFEdmfjfVHEqDnhnuAhyifrZQ==}
     peerDependencies:
       openai: '*'
     peerDependenciesMeta:
@@ -2400,8 +2400,8 @@ packages:
       encoding:
         optional: true
 
-  node-llama-cpp@3.4.0:
-    resolution: {integrity: sha512-Do8oQe9dyx9YKOUMv0Px0CN2WQTvchdhC/JaLLUdBucrubDey8ta24guEbKWhD000oRmqxHlTOjutblFu74FQQ==}
+  node-llama-cpp@3.4.1:
+    resolution: {integrity: sha512-AS3ajS4mhXlk61TWWA/71No/EYBNJvFr+cTZpIu0IU5VDwf/aqhZ62YokQYeKSnz/HAOFMWhdIMKdiX/hWvKbg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -3422,7 +3422,7 @@ snapshots:
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
       langchain: 0.3.12(@langchain/core@0.3.33(openai@4.80.0(ws@8.18.0)(zod@3.24.1)))(axios@1.7.4)(cheerio@1.0.0)(openai@4.80.0(ws@8.18.0)(zod@3.24.1))(ws@8.18.0)
-      langsmith: 0.3.2(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
+      langsmith: 0.3.3(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
       openai: 4.80.0(ws@8.18.0)(zod@3.24.1)
       uuid: 10.0.0
       zod: 3.24.1
@@ -3461,7 +3461,7 @@ snapshots:
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.16
-      langsmith: 0.3.2(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
+      langsmith: 0.3.3(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -3507,37 +3507,37 @@ snapshots:
       '@langchain/core': 0.3.33(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
       js-tiktoken: 1.0.16
 
-  '@node-llama-cpp/linux-arm64@3.4.0':
+  '@node-llama-cpp/linux-arm64@3.4.1':
     optional: true
 
-  '@node-llama-cpp/linux-armv7l@3.4.0':
+  '@node-llama-cpp/linux-armv7l@3.4.1':
     optional: true
 
-  '@node-llama-cpp/linux-x64-cuda@3.4.0':
+  '@node-llama-cpp/linux-x64-cuda@3.4.1':
     optional: true
 
-  '@node-llama-cpp/linux-x64-vulkan@3.4.0':
+  '@node-llama-cpp/linux-x64-vulkan@3.4.1':
     optional: true
 
-  '@node-llama-cpp/linux-x64@3.4.0':
+  '@node-llama-cpp/linux-x64@3.4.1':
     optional: true
 
-  '@node-llama-cpp/mac-arm64-metal@3.4.0':
+  '@node-llama-cpp/mac-arm64-metal@3.4.1':
     optional: true
 
-  '@node-llama-cpp/mac-x64@3.4.0':
+  '@node-llama-cpp/mac-x64@3.4.1':
     optional: true
 
-  '@node-llama-cpp/win-arm64@3.4.0':
+  '@node-llama-cpp/win-arm64@3.4.1':
     optional: true
 
-  '@node-llama-cpp/win-x64-cuda@3.4.0':
+  '@node-llama-cpp/win-x64-cuda@3.4.1':
     optional: true
 
-  '@node-llama-cpp/win-x64-vulkan@3.4.0':
+  '@node-llama-cpp/win-x64-vulkan@3.4.1':
     optional: true
 
-  '@node-llama-cpp/win-x64@3.4.0':
+  '@node-llama-cpp/win-x64@3.4.1':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3831,7 +3831,7 @@ snapshots:
 
   '@types/node-fetch@2.6.12':
     dependencies:
-      '@types/node': 22.10.9
+      '@types/node': 22.10.10
       form-data: 4.0.1
 
   '@types/node@10.14.22': {}
@@ -3840,7 +3840,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.10.9':
+  '@types/node@22.10.10':
     dependencies:
       undici-types: 6.20.0
 
@@ -4321,7 +4321,7 @@ snapshots:
 
   decamelize@1.2.0: {}
 
-  decimal.js@10.4.3: {}
+  decimal.js@10.5.0: {}
 
   decompress-response@6.0.0:
     dependencies:
@@ -5104,7 +5104,7 @@ snapshots:
     dependencies:
       cssstyle: 4.2.1
       data-urls: 5.0.0
-      decimal.js: 10.4.3
+      decimal.js: 10.5.0
       form-data: 4.0.1
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
@@ -5182,7 +5182,7 @@ snapshots:
       js-tiktoken: 1.0.16
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langsmith: 0.3.2(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
+      langsmith: 0.3.3(openai@4.80.0(ws@8.18.0)(zod@3.24.1))
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
@@ -5197,7 +5197,7 @@ snapshots:
       - openai
       - ws
 
-  langsmith@0.3.2(openai@4.80.0(ws@8.18.0)(zod@3.24.1)):
+  langsmith@0.3.3(openai@4.80.0(ws@8.18.0)(zod@3.24.1)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -5337,7 +5337,7 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  node-llama-cpp@3.4.0(typescript@5.7.3):
+  node-llama-cpp@3.4.1(typescript@5.7.3):
     dependencies:
       '@huggingface/jinja': 0.3.2
       async-retry: 1.3.3
@@ -5370,17 +5370,17 @@ snapshots:
       which: 5.0.0
       yargs: 17.7.2
     optionalDependencies:
-      '@node-llama-cpp/linux-arm64': 3.4.0
-      '@node-llama-cpp/linux-armv7l': 3.4.0
-      '@node-llama-cpp/linux-x64': 3.4.0
-      '@node-llama-cpp/linux-x64-cuda': 3.4.0
-      '@node-llama-cpp/linux-x64-vulkan': 3.4.0
-      '@node-llama-cpp/mac-arm64-metal': 3.4.0
-      '@node-llama-cpp/mac-x64': 3.4.0
-      '@node-llama-cpp/win-arm64': 3.4.0
-      '@node-llama-cpp/win-x64': 3.4.0
-      '@node-llama-cpp/win-x64-cuda': 3.4.0
-      '@node-llama-cpp/win-x64-vulkan': 3.4.0
+      '@node-llama-cpp/linux-arm64': 3.4.1
+      '@node-llama-cpp/linux-armv7l': 3.4.1
+      '@node-llama-cpp/linux-x64': 3.4.1
+      '@node-llama-cpp/linux-x64-cuda': 3.4.1
+      '@node-llama-cpp/linux-x64-vulkan': 3.4.1
+      '@node-llama-cpp/mac-arm64-metal': 3.4.1
+      '@node-llama-cpp/mac-x64': 3.4.1
+      '@node-llama-cpp/win-arm64': 3.4.1
+      '@node-llama-cpp/win-x64': 3.4.1
+      '@node-llama-cpp/win-x64-cuda': 3.4.1
+      '@node-llama-cpp/win-x64-vulkan': 3.4.1
       typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
@@ -5649,7 +5649,7 @@ snapshots:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
-      '@types/node': 22.10.9
+      '@types/node': 22.10.10
       long: 4.0.0
 
   proxy-from-env@1.1.0: {}

@@ -20,7 +20,7 @@
     "@stylistic/eslint-plugin-ts": "^2.13.0",
     "@types/async-retry": "^1.4.9",
     "@types/html-to-text": "^9.0.4",
-    "@types/node": "^22.10.9",
+    "@types/node": "^22.10.10",
     "@types/uuid": "^10.0.0",
     "eslint": "^9.18.0",
     "eslint-import-resolver-typescript": "^3.7.0",
@@ -37,7 +37,7 @@
     "html-to-text": "^9.0.5",
     "jsdom": "^26.0.0",
     "langchain": "^0.3.12",
-    "node-llama-cpp": "^3.4.0",
+    "node-llama-cpp": "^3.4.1",
     "uuid": "^11.0.5"
   },
   "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
