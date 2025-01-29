@@ -32,11 +32,11 @@
   "dependencies": {
     "@langchain/community": "^0.3.27",
     "@langchain/core": "^0.3.36",
-    "@langchain/langgraph": "^0.2.41",
+    "@langchain/langgraph": "^0.2.42",
     "@xenova/transformers": "^2.17.2",
     "html-to-text": "^9.0.5",
     "jsdom": "^26.0.0",
-    "langchain": "^0.3.13",
+    "langchain": "^0.3.14",
     "node-llama-cpp": "^3.4.2",
     "uuid": "^11.0.5"
   },
