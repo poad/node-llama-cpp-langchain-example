@@ -20,14 +20,14 @@
     "@stylistic/eslint-plugin-ts": "^3.0.1",
     "@types/async-retry": "^1.4.9",
     "@types/html-to-text": "^9.0.4",
-    "@types/node": "^22.13.0",
+    "@types/node": "^22.13.1",
     "@types/uuid": "^10.0.0",
     "eslint": "^9.19.0",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0"
+    "typescript-eslint": "^8.23.0"
   },
   "dependencies": {
     "@langchain/community": "^0.3.28",
