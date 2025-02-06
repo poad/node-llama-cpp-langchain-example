@@ -30,8 +30,8 @@
     "typescript-eslint": "^8.23.0"
   },
   "dependencies": {
-    "@langchain/community": "^0.3.28",
-    "@langchain/core": "^0.3.37",
+    "@langchain/community": "^0.3.29",
+    "@langchain/core": "^0.3.38",
     "@langchain/langgraph": "^0.2.44",
     "@xenova/transformers": "^2.17.2",
     "html-to-text": "^9.0.5",
