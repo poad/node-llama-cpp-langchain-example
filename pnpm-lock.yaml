@@ -14,13 +14,13 @@ importers:
     dependencies:
       '@langchain/community':
         specifier: ^0.3.37
-        version: 0.3.37(@browserbasehq/sdk@2.4.0)(@browserbasehq/stagehand@1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(zod@3.24.2))(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@26.0.0)(jsonwebtoken@9.0.2)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(pdf-parse@1.1.1)(playwright@1.49.0)(voy-search@0.6.2)(ws@8.18.1)
+        version: 0.3.37(@browserbasehq/sdk@2.4.0)(@browserbasehq/stagehand@1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(zod@3.24.2))(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@26.0.0)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(pdf-parse@1.1.1)(playwright@1.49.0)(voy-search@0.6.2)(ws@8.18.1)
       '@langchain/core':
         specifier: ^0.3.43
-        version: 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+        version: 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       '@langchain/langgraph':
         specifier: ^0.2.60
-        version: 0.2.60(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)(zod-to-json-schema@3.24.5(zod@3.24.2))
+        version: 0.2.60(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)(zod-to-json-schema@3.24.5(zod@3.24.2))
       '@xenova/transformers':
         specifier: ^2.17.2
         version: 2.17.2(bare-buffer@3.0.1)
@@ -32,10 +32,10 @@ importers:
         version: 26.0.0
       langchain:
         specifier: ^0.3.19
-        version: 0.3.19(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(ws@8.18.1)
+        version: 0.3.19(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(ws@8.18.1)
       node-llama-cpp:
-        specifier: ^3.6.0
-        version: 3.6.0(typescript@5.8.2)
+        specifier: ^3.7.0
+        version: 3.7.0(typescript@5.8.2)
       uuid:
         specifier: ^11.1.0
         version: 11.1.0
@@ -753,69 +753,69 @@ packages:
   '@napi-rs/wasm-runtime@0.2.7':
     resolution: {integrity: sha512-5yximcFK5FNompXfJFoWanu5l8v1hNGqNHh9du1xETp9HWk/B/PzvchX55WYOPaIeNglG8++68AAiauBAtbnzw==}
 
-  '@node-llama-cpp/linux-arm64@3.6.0':
-    resolution: {integrity: sha512-hE/hqxtr5DQyY1DohwOcY742NQZtEFag8H/FQP2Y7fnlNQYhiOe45PcAJDiqmEUMmlCGVvHZaCWbaNVoTMYdWg==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/linux-arm64@3.7.0':
+    resolution: {integrity: sha512-bcgEyTNURICSsPz1hvahhrdiezzGB8VweUGQw+AVLurH/j2eomUFIa2DXZ22SFSUkbV4L7EBei17HjKpe6sKxg==}
+    engines: {node: '>=20.0.0'}
     cpu: [arm64, x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-armv7l@3.6.0':
-    resolution: {integrity: sha512-aRyDVf8szfJJWHnNWG56Ir3LtfXxj9vwLXbXy4XwfHlMTuBHWhmrRXyB8f3A/aJ8h6u48wMVxqxdmwnXigSKWg==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/linux-armv7l@3.7.0':
+    resolution: {integrity: sha512-0CBUJG4Z7JKvYFlqcVRqpvN7nD21JWr8B7T5P6aiU/WydnwiaYrhUBY0Qn3VmmMmjncA2APonGZsjt2lcPs32A==}
+    engines: {node: '>=20.0.0'}
     cpu: [arm, x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64-cuda@3.6.0':
-    resolution: {integrity: sha512-lS9F+aX2cGV1I/pAuCNeQm9bGELNmnvKqbF4k4ZjNk64ZT2sE74o2S/uN6GvMJETG+rgQiKRuKb1l/yIm0LOfA==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/linux-x64-cuda@3.7.0':
+    resolution: {integrity: sha512-QjAjvJiAqkzX1CXfJN8UMVw866pArkYyExajJnFfcULYsk+Hs5E01m9GxXYdsADOTU91M0N9A6hsgDR/3oAwyg==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64-vulkan@3.6.0':
-    resolution: {integrity: sha512-1Wc6e1YJRpjllD6MRfwYPxE7z8qvmaYrEFyVPzTe9sghKXUswpBmmb0mM/yOzwT/mUBygSwOEBvTkp3nG+pWhg==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/linux-x64-vulkan@3.7.0':
+    resolution: {integrity: sha512-tCFg7P7DbgLM7ZPIAENzZHlURWBJrAgawatPQb50SySilvgo3epWMtxJVw4/ZCde8F6mFxGuIy0q66Gqwa1vMw==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/linux-x64@3.6.0':
-    resolution: {integrity: sha512-lUzTTY7AwRz5j/f6rss6fPc2u3YNOmo4k8Zap38kzy9H6rL+U2nlanN+4STs5j/7gcx5f/VHRnPrYDl5OPcmTw==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/linux-x64@3.7.0':
+    resolution: {integrity: sha512-IC8YtwvIM3sTwf2VKcOxkTmrTJLvE0QqB4dweFqlwFJMh0JDNqRMzoAl5JcN6Q7swyStB9PzsUSklcVrw+xPBw==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@node-llama-cpp/mac-arm64-metal@3.6.0':
-    resolution: {integrity: sha512-bOtZkJ6dCWHnZ1SP8EJ+LOdIFKo/7clb0ck+IwD/Bn/2ePzObVBsq30IxpRnUXx8pZ54+CzmTQuS2NOMHXS0PQ==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/mac-arm64-metal@3.7.0':
+    resolution: {integrity: sha512-RkcO+tEuaxRMDT/sVhAJiMZ/CLY3a8WpbNtL01J0QP3jJo8xQeWgsaRIucnZc/U7OdvSvuAUIk0QAAdWbca2Hw==}
+    engines: {node: '>=20.0.0'}
     cpu: [arm64, x64]
     os: [darwin]
 
-  '@node-llama-cpp/mac-x64@3.6.0':
-    resolution: {integrity: sha512-xjyEAsOXQ6i3VuXoQYB5llYuNz0sP9YnrDzAJ8sqovXXYkSyXPRyTCF5/PaAFc6QMkpsFIw3fSbavJeSzR5IGw==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/mac-x64@3.7.0':
+    resolution: {integrity: sha512-bzpUAwdRxK/ESIyt4aALkMYvDF8oQGAK8TuqjN2N7lNCuDwmshHpia45QvUyQl1v+6LplXXYmwGV9az0tU8LqQ==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [darwin]
 
-  '@node-llama-cpp/win-arm64@3.6.0':
-    resolution: {integrity: sha512-o4gEUBVMZ1R3Oy1f642UA1vJtnVLAJq2W+diPUxJVqXs9KYDOf7+JuxVcTEzSj6+wBsN3ZRtt36Xst41Jwp6FQ==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/win-arm64@3.7.0':
+    resolution: {integrity: sha512-FsLpoTUGAsHceXStPhT1P3dFntovvoRCj5wi9orCqjO7nBMBrp/+aQ8C+erK5DqCvvZfNM7rHbiEQv8pF8eCwA==}
+    engines: {node: '>=20.0.0'}
     cpu: [arm64, x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64-cuda@3.6.0':
-    resolution: {integrity: sha512-vxNrz4BwMNgmfbRxALdTnb7RlJnO6p5uXlZP8fxpaD0zyBllenURTTzEo3Wobpa98af5DWEY1AueH9RFixvscA==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/win-x64-cuda@3.7.0':
+    resolution: {integrity: sha512-gUfqR+3jVjOy5ONPC+eJLkAsjZd31kS/LryicY+2gLg4vtJPw7TygLJJueKWd+gACh+AnENVNH1wd6oqSvKWPQ==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64-vulkan@3.6.0':
-    resolution: {integrity: sha512-2XhzVQaRw5QxMqtg+517W+tn0fgDqvo12I0/wVpaBctwIaX+yOcj+njGlVUbMBFzhR9VM9wo5N2bjfRYI6y+PA==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/win-x64-vulkan@3.7.0':
+    resolution: {integrity: sha512-Vb0c9bt/dy8YVAJ56anlOWlNXeysDTatdHssMVesTG9MogvWYReScReqT7VzQIBLzLjKQV/D7rAVpQj7Vzf6zw==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@node-llama-cpp/win-x64@3.6.0':
-    resolution: {integrity: sha512-JDJoDeBkJhvFlINwi7tyTuOjSTJoBF6yyf7o89iMZ2xniyo6BzhI2d/79PGLkXht/1+sGNoCyzbuz3cBgP06Fg==}
-    engines: {node: '>=18.0.0'}
+  '@node-llama-cpp/win-x64@3.7.0':
+    resolution: {integrity: sha512-Ha/a5fi5etaJrmhmDSzsC/5Ceq74NqElazVbBij0hJjgu7SV/vghg/FyB9q6itAiDxn74+kwZZAcrZhVMAWHrA==}
+    engines: {node: '>=20.0.0'}
     cpu: [x64]
     os: [win32]
 
@@ -2530,9 +2530,9 @@ packages:
       encoding:
         optional: true
 
-  node-llama-cpp@3.6.0:
-    resolution: {integrity: sha512-SzjsZLuG2pQPPkgMniTgK4sCcslA6ion5L55L8qeGnIb0cAhzVDbJ0Lxl5NhuTMm8KkxVZXF2yTihyulPMSLhw==}
-    engines: {node: '>=18.0.0'}
+  node-llama-cpp@3.7.0:
+    resolution: {integrity: sha512-f4qGXbmWSGGjklVZ0ISaRL/ysNxb5I8DGt5Nd1fkul3jbgO9MBvFILG+wDDxqowiSB94yskKwKgFOn2+F1CL6A==}
+    engines: {node: '>=20.0.0'}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -2548,8 +2548,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nwsapi@2.2.19:
-    resolution: {integrity: sha512-94bcyI3RsqiZufXjkr3ltkI86iEl+I7uiHVDtcq9wJUTwYQJ5odHDeSzkkrRzi80jJ8MaeZgqKjH1bAWAFw9bA==}
+  nwsapi@2.2.20:
+    resolution: {integrity: sha512-/ieB+mDe4MrrKMT8z+mQL8klXydZWGR5Dowt4RAGKbJ3kIGEx3X4ljUo+6V73IXtUPWgfOlU5B9MlGxFO5T+cA==}
 
   object-inspect@1.13.4:
     resolution: {integrity: sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==}
@@ -2599,8 +2599,8 @@ packages:
   onnxruntime-web@1.14.0:
     resolution: {integrity: sha512-Kcqf43UMfW8mCydVGcX9OMXI2VN17c0p6XvR7IPSZzBf/6lteBzXHvcEVWDPmCKuGombl997HgLqj91F11DzXw==}
 
-  openai@4.89.1:
-    resolution: {integrity: sha512-k6t7WfnodIctPo40/9sy7Ww4VypnfkKi/urO2VQx4trCIwgzeroO1jkaCL2f5MyTS1H3HT9X+M2qLsc7NSXwTw==}
+  openai@4.90.0:
+    resolution: {integrity: sha512-YCuHMMycqtCg1B8G9ezkOF0j8UnBWD3Al/zYaelpuXwU1yhCEv+Y4n9G20MnyGy6cH4GsFwOMrgstQ+bgG1PtA==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -3359,7 +3359,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@browserbasehq/stagehand@1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(zod@3.24.2)':
+  '@browserbasehq/stagehand@1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(zod@3.24.2)':
     dependencies:
       '@anthropic-ai/sdk': 0.27.3
       '@browserbasehq/sdk': 2.4.0
@@ -3368,7 +3368,7 @@ snapshots:
       anthropic-ai: 0.0.10
       deepmerge: 4.3.1
       dotenv: 16.4.7
-      openai: 4.89.1(ws@8.18.1)(zod@3.24.2)
+      openai: 4.90.0(ws@8.18.1)(zod@3.24.2)
       sharp: 0.33.5
       zod: 3.24.2
       zod-to-json-schema: 3.24.5(zod@3.24.2)
@@ -3565,20 +3565,20 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@langchain/community@0.3.37(@browserbasehq/sdk@2.4.0)(@browserbasehq/stagehand@1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(zod@3.24.2))(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@26.0.0)(jsonwebtoken@9.0.2)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(pdf-parse@1.1.1)(playwright@1.49.0)(voy-search@0.6.2)(ws@8.18.1)':
+  '@langchain/community@0.3.37(@browserbasehq/sdk@2.4.0)(@browserbasehq/stagehand@1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(zod@3.24.2))(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(html-to-text@9.0.5)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@26.0.0)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(pdf-parse@1.1.1)(playwright@1.49.0)(voy-search@0.6.2)(ws@8.18.1)':
     dependencies:
-      '@browserbasehq/stagehand': 1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(zod@3.24.2)
+      '@browserbasehq/stagehand': 1.3.0(@playwright/test@1.49.0)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(zod@3.24.2)
       '@ibm-cloud/watsonx-ai': 1.1.1
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
-      '@langchain/openai': 0.4.9(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(ws@8.18.1)
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
+      '@langchain/openai': 0.4.9(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(ws@8.18.1)
       binary-extensions: 2.3.0
       expr-eval: 2.0.2
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
-      langchain: 0.3.19(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(ws@8.18.1)
-      langsmith: 0.3.15(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
-      openai: 4.89.1(ws@8.18.1)(zod@3.24.2)
+      langchain: 0.3.19(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(ws@8.18.1)
+      langsmith: 0.3.15(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
+      openai: 4.90.0(ws@8.18.1)(zod@3.24.2)
       uuid: 10.0.0
       zod: 3.24.2
       zod-to-json-schema: 3.24.5(zod@3.24.2)
@@ -3611,14 +3611,14 @@ snapshots:
       - handlebars
       - peggy
 
-  '@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))':
+  '@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.19
-      langsmith: 0.3.15(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+      langsmith: 0.3.15(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -3628,26 +3628,26 @@ snapshots:
     transitivePeerDependencies:
       - openai
 
-  '@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))':
+  '@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))':
     dependencies:
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       uuid: 10.0.0
 
-  '@langchain/langgraph-sdk@0.0.60(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)':
+  '@langchain/langgraph-sdk@0.0.60(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)':
     dependencies:
       '@types/json-schema': 7.0.15
       p-queue: 6.6.2
       p-retry: 4.6.2
       uuid: 9.0.1
     optionalDependencies:
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       react: 19.0.0
 
-  '@langchain/langgraph@0.2.60(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)(zod-to-json-schema@3.24.5(zod@3.24.2))':
+  '@langchain/langgraph@0.2.60(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)(zod-to-json-schema@3.24.5(zod@3.24.2))':
     dependencies:
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
-      '@langchain/langgraph-checkpoint': 0.0.16(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))
-      '@langchain/langgraph-sdk': 0.0.60(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
+      '@langchain/langgraph-checkpoint': 0.0.16(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))
+      '@langchain/langgraph-sdk': 0.0.60(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(react@19.0.0)
       uuid: 10.0.0
       zod: 3.24.2
     optionalDependencies:
@@ -3655,20 +3655,20 @@ snapshots:
     transitivePeerDependencies:
       - react
 
-  '@langchain/openai@0.4.9(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(ws@8.18.1)':
+  '@langchain/openai@0.4.9(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(ws@8.18.1)':
     dependencies:
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       js-tiktoken: 1.0.19
-      openai: 4.89.1(ws@8.18.1)(zod@3.24.2)
+      openai: 4.90.0(ws@8.18.1)(zod@3.24.2)
       zod: 3.24.2
       zod-to-json-schema: 3.24.5(zod@3.24.2)
     transitivePeerDependencies:
       - encoding
       - ws
 
-  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))':
+  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))':
     dependencies:
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       js-tiktoken: 1.0.19
 
   '@napi-rs/wasm-runtime@0.2.7':
@@ -3678,37 +3678,37 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@node-llama-cpp/linux-arm64@3.6.0':
+  '@node-llama-cpp/linux-arm64@3.7.0':
     optional: true
 
-  '@node-llama-cpp/linux-armv7l@3.6.0':
+  '@node-llama-cpp/linux-armv7l@3.7.0':
     optional: true
 
-  '@node-llama-cpp/linux-x64-cuda@3.6.0':
+  '@node-llama-cpp/linux-x64-cuda@3.7.0':
     optional: true
 
-  '@node-llama-cpp/linux-x64-vulkan@3.6.0':
+  '@node-llama-cpp/linux-x64-vulkan@3.7.0':
     optional: true
 
-  '@node-llama-cpp/linux-x64@3.6.0':
+  '@node-llama-cpp/linux-x64@3.7.0':
     optional: true
 
-  '@node-llama-cpp/mac-arm64-metal@3.6.0':
+  '@node-llama-cpp/mac-arm64-metal@3.7.0':
     optional: true
 
-  '@node-llama-cpp/mac-x64@3.6.0':
+  '@node-llama-cpp/mac-x64@3.7.0':
     optional: true
 
-  '@node-llama-cpp/win-arm64@3.6.0':
+  '@node-llama-cpp/win-arm64@3.7.0':
     optional: true
 
-  '@node-llama-cpp/win-x64-cuda@3.6.0':
+  '@node-llama-cpp/win-x64-cuda@3.7.0':
     optional: true
 
-  '@node-llama-cpp/win-x64-vulkan@3.6.0':
+  '@node-llama-cpp/win-x64-vulkan@3.7.0':
     optional: true
 
-  '@node-llama-cpp/win-x64@3.6.0':
+  '@node-llama-cpp/win-x64@3.7.0':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -5125,7 +5125,7 @@ snapshots:
       isstream: 0.1.2
       jsonwebtoken: 9.0.2
       mime-types: 2.1.35
-      retry-axios: 2.6.0(axios@1.8.4(debug@4.4.0))
+      retry-axios: 2.6.0(axios@1.8.4)
       tough-cookie: 4.1.4
     transitivePeerDependencies:
       - supports-color
@@ -5332,7 +5332,7 @@ snapshots:
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
       is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.19
+      nwsapi: 2.2.20
       parse5: 7.2.1
       rrweb-cssom: 0.8.0
       saxes: 6.0.0
@@ -5396,15 +5396,15 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  langchain@0.3.19(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(openai@4.89.1(ws@8.18.1)(zod@3.24.2))(ws@8.18.1):
+  langchain@0.3.19(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(axios@1.8.4)(cheerio@1.0.0)(openai@4.90.0(ws@8.18.1)(zod@3.24.2))(ws@8.18.1):
     dependencies:
-      '@langchain/core': 0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
-      '@langchain/openai': 0.4.9(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))(ws@8.18.1)
-      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.43(openai@4.89.1(ws@8.18.1)(zod@3.24.2)))
+      '@langchain/core': 0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
+      '@langchain/openai': 0.4.9(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))(ws@8.18.1)
+      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.43(openai@4.90.0(ws@8.18.1)(zod@3.24.2)))
       js-tiktoken: 1.0.19
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langsmith: 0.3.15(openai@4.89.1(ws@8.18.1)(zod@3.24.2))
+      langsmith: 0.3.15(openai@4.90.0(ws@8.18.1)(zod@3.24.2))
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
@@ -5419,7 +5419,7 @@ snapshots:
       - openai
       - ws
 
-  langsmith@0.3.15(openai@4.89.1(ws@8.18.1)(zod@3.24.2)):
+  langsmith@0.3.15(openai@4.90.0(ws@8.18.1)(zod@3.24.2)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -5429,7 +5429,7 @@ snapshots:
       semver: 7.7.1
       uuid: 10.0.0
     optionalDependencies:
-      openai: 4.89.1(ws@8.18.1)(zod@3.24.2)
+      openai: 4.90.0(ws@8.18.1)(zod@3.24.2)
 
   leac@0.6.0: {}
 
@@ -5559,7 +5559,7 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  node-llama-cpp@3.6.0(typescript@5.8.2):
+  node-llama-cpp@3.7.0(typescript@5.8.2):
     dependencies:
       '@huggingface/jinja': 0.3.3
       async-retry: 1.3.3
@@ -5592,17 +5592,17 @@ snapshots:
       which: 5.0.0
       yargs: 17.7.2
     optionalDependencies:
-      '@node-llama-cpp/linux-arm64': 3.6.0
-      '@node-llama-cpp/linux-armv7l': 3.6.0
-      '@node-llama-cpp/linux-x64': 3.6.0
-      '@node-llama-cpp/linux-x64-cuda': 3.6.0
-      '@node-llama-cpp/linux-x64-vulkan': 3.6.0
-      '@node-llama-cpp/mac-arm64-metal': 3.6.0
-      '@node-llama-cpp/mac-x64': 3.6.0
-      '@node-llama-cpp/win-arm64': 3.6.0
-      '@node-llama-cpp/win-x64': 3.6.0
-      '@node-llama-cpp/win-x64-cuda': 3.6.0
-      '@node-llama-cpp/win-x64-vulkan': 3.6.0
+      '@node-llama-cpp/linux-arm64': 3.7.0
+      '@node-llama-cpp/linux-armv7l': 3.7.0
+      '@node-llama-cpp/linux-x64': 3.7.0
+      '@node-llama-cpp/linux-x64-cuda': 3.7.0
+      '@node-llama-cpp/linux-x64-vulkan': 3.7.0
+      '@node-llama-cpp/mac-arm64-metal': 3.7.0
+      '@node-llama-cpp/mac-x64': 3.7.0
+      '@node-llama-cpp/win-arm64': 3.7.0
+      '@node-llama-cpp/win-x64': 3.7.0
+      '@node-llama-cpp/win-x64-cuda': 3.7.0
+      '@node-llama-cpp/win-x64-vulkan': 3.7.0
       typescript: 5.8.2
     transitivePeerDependencies:
       - supports-color
@@ -5619,7 +5619,7 @@ snapshots:
       boolbase: 1.0.0
     optional: true
 
-  nwsapi@2.2.19: {}
+  nwsapi@2.2.20: {}
 
   object-inspect@1.13.4: {}
 
@@ -5695,7 +5695,7 @@ snapshots:
       onnxruntime-common: 1.14.0
       platform: 1.3.6
 
-  openai@4.89.1(ws@8.18.1)(zod@3.24.2):
+  openai@4.90.0(ws@8.18.1)(zod@3.24.2):
     dependencies:
       '@types/node': 18.19.84
       '@types/node-fetch': 2.6.12
@@ -5960,7 +5960,7 @@ snapshots:
       onetime: 7.0.0
       signal-exit: 4.1.0
 
-  retry-axios@2.6.0(axios@1.8.4(debug@4.4.0)):
+  retry-axios@2.6.0(axios@1.8.4):
     dependencies:
       axios: 1.8.4(debug@4.4.0)
 
